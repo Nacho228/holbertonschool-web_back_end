@@ -9,7 +9,7 @@ from typing import Tuple
 
 
 
-def to_kv(k: str, v: Union[float, int]) -> Tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
     Cast an int or float v and str k to
     a Tuple being [k, v]
