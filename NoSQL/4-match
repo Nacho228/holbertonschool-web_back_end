@@ -1,4 +1,5 @@
 // my comment
-db.school.aggregate([
-   { $match : { name : "Holberton School" }}
-])
+db.school.find( {
+   name : "Holberton School"
+} )
+
